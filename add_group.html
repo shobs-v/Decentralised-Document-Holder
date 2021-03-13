@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Group</title>
+    <link rel="stylesheet" href="add_group.css">
+  </head>
+  <body>
+    <h1>Add Group Page</h1>
+    <form class="" action="index.html" method="post">
+      <label for="group-name">Group Name:</label>
+      <input type="text" id='group' name="" value="" placeholder = 'Enter group name' required>
+      <p></p>
+      <img src="https://cdn4.iconfinder.com/data/icons/vectory-bonus-3/40/button_add-512.png" id = 'add-member'alt="Button cannot be displayed">
+      <script type="text/javascript">
+        document.getElementById("add-member").onclick = addMember;
+
+        function addMember() {
+          var member = prompt("Enter name of new Member:");
+          alert("New member Added!");
+}
+</script>
+      <p></p>
+      <input type="submit" name="" value="Add Group">
+    </form>
+
+  </body>
+</html>
